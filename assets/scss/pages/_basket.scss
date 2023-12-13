@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    background-color: white;
+    border-bottom: 1px solid rgb(89, 85, 85,0.2);
+    nav{
+        width: 65%;
+        margin: auto;   
+        .collapseDiv{
+            justify-content: flex-end;
+            font-size: 14px;
+            font-weight: 500;
+            ul{
+                li{
+                    a{
+                        &:hover{
+                            color: #28B6E8 !important;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+#deleteproducts{
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    padding: 30px;
+}
+.delimg{
+    display: flex;
+    flex-direction: column;
+    img{
+        width: 300px;
+    }
+}

@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    background-color: white;
+    border-bottom: 1px solid rgb(89, 85, 85,0.2);
+    nav{
+        width: 65%;
+        margin: auto;   
+        .collapseDiv{
+            justify-content: flex-end;
+            font-size: 14px;
+            font-weight: 500;
+            ul{
+                li{
+                    a{
+                        &:hover{
+                            color: #28B6E8 !important;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+#BusinessTheme{
+    width: 100%;
+    background: linear-gradient(rgb(0, 0, 0,0.3),rgb(0, 0, 0,0.3)),url(/assets/img/slide_2.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    .BusinessThemecontainer{
+        width: 70%;
+        padding: 30px;
+        margin: 30px;
+        .row{
+            padding: 30px;
+            margin: 30px;
+            .BusinessThemetext{
+                padding: 30px;
+                margin: 30px;
+                color: white;
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+                h5{
+                    font-weight: 700;
+                }
+                h1{
+                    font-weight: 700;
+                }
+                p{
+                    font-size: 20px;
+                    width: 600px;
+                }
+                button{
+                    border: none;
+                    width: 200px;
+                    height: 50px;
+                    background-color: #28B6E8;
+                    color: white;
+                    &:hover{
+                        background-color: white;
+                        color: #28B6E8;
+                    }
+                }
+            }  
+        }
+    }
+}
+
+#AwesomeProjects{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    text-align: center;
+    .AwesomeProjectscontainer{
+        width: 70%;
+        padding: 30px;
+        margin: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .row{
+            padding: 30px;
+            margin: 30px;
+            ul{
+                display: flex;
+                list-style-type: none;
+                gap: 20px;
+                position: relative;
+                left: 70px;
+            }
+            #avesomeimage{
+                margin-top: 30px;
+                display: flex;
+                flex-wrap: wrap;
+                align-items: center;
+                justify-content: center;
+                gap: 20px;
+                img{
+                    width: 250px;
+                }
+            }
+            #sortproducts{
+                margin-top: 30px;
+                display: flex;
+                flex-wrap: wrap;
+                align-items: center;
+                justify-content: center;
+                gap: 20px;
+                img{
+                    width: 250px;
+                } 
+            }
+        }
+    }
+}
+.proimg{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+#OurTeam{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    text-align: center;
+    .OurTeamcontainer{
+        width: 70%;
+        padding: 30px;
+        margin: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .row{
+            img{
+                width: 270px;
+            }
+            .OurTeamtext{
+                width: 270px;
+                background-color: #28B6E8;
+                
+            }
+        }
+    }}
+

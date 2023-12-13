@@ -1,0 +1,193 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  background-color: white;
+  border-bottom: 1px solid rgba(89, 85, 85, 0.2);
+}
+header nav {
+  width: 65%;
+  margin: auto;
+}
+header nav .collapseDiv {
+  justify-content: flex-end;
+  font-size: 14px;
+  font-weight: 500;
+}
+header nav .collapseDiv ul li a:hover {
+  color: #28B6E8 !important;
+}
+
+#BusinessTheme {
+  width: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(/assets/img/slide_2.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+#BusinessTheme .BusinessThemecontainer {
+  width: 70%;
+  padding: 30px;
+  margin: 30px;
+}
+#BusinessTheme .BusinessThemecontainer .row {
+  padding: 30px;
+  margin: 30px;
+}
+#BusinessTheme .BusinessThemecontainer .row .BusinessThemetext {
+  padding: 30px;
+  margin: 30px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+#BusinessTheme .BusinessThemecontainer .row .BusinessThemetext h5 {
+  font-weight: 700;
+}
+#BusinessTheme .BusinessThemecontainer .row .BusinessThemetext h1 {
+  font-weight: 700;
+}
+#BusinessTheme .BusinessThemecontainer .row .BusinessThemetext p {
+  font-size: 20px;
+  width: 600px;
+}
+#BusinessTheme .BusinessThemecontainer .row .BusinessThemetext button {
+  border: none;
+  width: 200px;
+  height: 50px;
+  background-color: #28B6E8;
+  color: white;
+}
+#BusinessTheme .BusinessThemecontainer .row .BusinessThemetext button:hover {
+  background-color: white;
+  color: #28B6E8;
+}
+
+#AwesomeProjects {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  text-align: center;
+}
+#AwesomeProjects .AwesomeProjectscontainer {
+  width: 70%;
+  padding: 30px;
+  margin: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#AwesomeProjects .AwesomeProjectscontainer .row {
+  padding: 30px;
+  margin: 30px;
+}
+#AwesomeProjects .AwesomeProjectscontainer .row ul {
+  display: flex;
+  list-style-type: none;
+  gap: 20px;
+  position: relative;
+  left: 70px;
+}
+#AwesomeProjects .AwesomeProjectscontainer .row #avesomeimage {
+  margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+#AwesomeProjects .AwesomeProjectscontainer .row #avesomeimage img {
+  width: 250px;
+}
+#AwesomeProjects .AwesomeProjectscontainer .row #sortproducts {
+  margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+#AwesomeProjects .AwesomeProjectscontainer .row #sortproducts img {
+  width: 250px;
+}
+
+.proimg {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+#OurTeam {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  text-align: center;
+}
+#OurTeam .OurTeamcontainer {
+  width: 70%;
+  padding: 30px;
+  margin: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#OurTeam .OurTeamcontainer .row img {
+  width: 270px;
+}
+#OurTeam .OurTeamcontainer .row .OurTeamtext {
+  width: 270px;
+  background-color: #28B6E8;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  background-color: white;
+  border-bottom: 1px solid rgba(89, 85, 85, 0.2);
+}
+header nav {
+  width: 65%;
+  margin: auto;
+}
+header nav .collapseDiv {
+  justify-content: flex-end;
+  font-size: 14px;
+  font-weight: 500;
+}
+header nav .collapseDiv ul li a:hover {
+  color: #28B6E8 !important;
+}
+
+#deleteproducts {
+  width: 90%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  padding: 30px;
+}
+
+.delimg {
+  display: flex;
+  flex-direction: column;
+}
+.delimg img {
+  width: 300px;
+}
